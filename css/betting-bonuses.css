@@ -1,0 +1,334 @@
+table#bettings-table {
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+#bettings-table thead tr th {
+    vertical-align: middle;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+table#bettings-table thead, table#bettings-table thead tr, table#bettings-table thead th {
+    background: #505050 url(img/table_head.png);
+    height: 34px;
+    color: #fff;
+    font-size: 14px !important;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTCom-BdCn20' !important;
+    border: none !important;
+    text-shadow: 0 1px 0 #000;
+    text-align: center;
+}
+
+table#bettings-table .winner, .wettsteuer_content .winner, .apps_content .winner {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #5ea4a0;
+    background: -moz-linear-gradient(top, #5ea4a0 0, #508c89 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5ea4a0), color-stop(100%, #508c89));
+    background: -webkit-linear-gradient(top, #5ea4a0 0, #508c89 100%);
+    background: -o-linear-gradient(top, #5ea4a0 0, #508c89 100%);
+    background: -ms-linear-gradient(top, #5ea4a0 0, #508c89 100%);
+    background: linear-gradient(to bottom, #5ea4a0 0, #508c89 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ea4a0', endColorstr='#508c89', GradientType=0);
+    border: 1px solid #333;
+    border-bottom: 3px solid #333;
+}
+
+table#bettings-table tr {
+    background: #f9f9f9;
+    background: -moz-linear-gradient(top, #f9f9f9 0, #f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(100%, #f2f2f2));
+    background: -webkit-linear-gradient(top, #f9f9f9 0, #f2f2f2 100%);
+    background: -o-linear-gradient(top, #f9f9f9 0, #f2f2f2 100%);
+    background: -ms-linear-gradient(top, #f9f9f9 0, #f2f2f2 100%);
+    background: linear-gradient(to bottom, #f9f9f9 0, #f2f2f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f2f2f2', GradientType=0);
+    border: 1px solid #d6d6d6;
+}
+
+table#bettings-table .winner{
+    background: #007354;
+}
+
+table#bettings-table .winner td, .wettsteuer_content .winner td, .apps_content .winner td {
+    padding-bottom: 12px;
+    padding-top: 10px;
+    border-right: 1px dashed #80bfbc;
+    border-bottom: 3px solid #333;
+}
+
+table#bettings-table .col1_2 {
+    width: 55px;
+    color: #777;
+    font-size: 23px;
+    text-shadow: 0 1px 0 #fff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=1);
+    border-right: 1px dashed #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+}
+
+table#bettings-table .winner td.col1_2 {
+    border-left: 1px solid #333;
+}
+
+table#bettings-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table#bettings-table a {
+    color: #777;
+}
+
+table#bettings-table .winner a, .wettsteuer_content .winner a, .apps_content .winner a, #content .wettsteuer_content .winner a:link, #content .wettsteuer_content .winner a:visited, #content .apps_content .winner a:link, #content .apps_content .winner a:visited {
+    color: #d3e6e5;
+}
+
+table#bettings-table .col2_2 a {
+    margin: 0;
+    padding: 0;
+}
+table#bettings-table .col2_2 {
+    width: 210px;
+    border-right: 1px dashed #d6d6d6;
+}
+table#bettings-table .col3_2 {
+    width: 119px;
+    text-align: left;
+    padding: 6px;
+    border-right: 1px dashed #d6d6d6;
+}
+.winner .bonus_1 {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bonus_1 {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #404241;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.winner .bonus_2 {
+    width: 100%;
+    height: 100%;
+    line-height: 15px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+.bonus_2 {
+    width: 100%;
+    height: 40px;
+    line-height: 15px;
+    color: #404241;
+    text-align: center;
+    font-size: 12px;
+}
+table#bettings-table .col4_2 {
+    width: 346px;
+    border-right: 1px dashed #d6d6d6;
+}
+.winner .bonuscalc_box {
+    width: 330px;
+    height: 55px;
+    margin-left: 8px;
+    margin-top: 0;
+    color: #daecec;
+}
+
+.bonuscalc_box {
+    width: 330px;
+    height: 55px;
+    margin-left: 8px;
+    margin-top: 0;
+    color: gray;
+}
+.winner .bonuscalc_innerbox {
+    width: 75px;
+    height: 55px;
+    float: left;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.bonuscalc_innerbox {
+    width: 75px;
+    height: 55px;
+    float: left;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.winner .bonuscalc_border {
+    width: 18px;
+    height: 2px;
+    float: left;
+    border-top: 4px solid #a7d9d6;
+    border-bottom: 4px solid #a7d9d6;
+    margin-top: 30px;
+}
+
+.plus {
+    border: medium none !important;
+    font-size: 29px !important;
+    font-weight: bold !important;
+    line-height: 13px !important;
+}
+
+.bonuscalc_border {
+    width: 18px;
+    height: 2px;
+    float: left;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    margin-top: 30px;
+}
+.winner .bonuscalc_border {
+    width: 18px;
+    height: 2px;
+    float: left;
+    border-top: 4px solid #a7d9d6;
+    border-bottom: 4px solid #a7d9d6;
+    margin-top: 30px;
+}
+
+.bonuscalc_border {
+    width: 18px;
+    height: 2px;
+    float: left;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    margin-top: 30px;
+}
+.winner .bonuscalc_textfield {
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #daecec;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    color: #404241;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.bonuscalc_textfield {
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #e5e5e5;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.einzahlunginput {
+    -webkit-box-shadow: 0 0 4px 2px #e12908;
+    box-shadow: 0 0 4px 2px #e12908;
+}
+
+table#bettings-table .winner .button, #wrapper table#bettings-table .button, #wrapper .wettsteuer_content .winner .button, .apps_content .winner .button, #wrapper #content .wettsteuer_content .winner a.button:link, #wrapper #content .wettsteuer_content .winner a.button:visited, #wrapper #content .apps_content .winner a.button:link, #wrapper #content .apps_content .winner a.button:visited {
+    color: #3b3b3b;
+    font-size: 17px;
+    margin-top: 15px;
+    width: 190px;
+}
+
+#wrapper .button.large {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 26px 8px 16px;
+}
+
+#wrapper a.yellow, #wrapper span.yellow {
+    color: #222;
+    background: #ffeb00;
+    background: -moz-linear-gradient(top, #ffeb00 0, #fede00 37%, #fedb05 45%, #fed001 61%, #ffcb03 68%, #ffc100 82%, #ffbe05 87%, #ffbb02 92%, #ffbe05 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffeb00), color-stop(37%, #fede00), color-stop(45%, #fedb05), color-stop(61%, #fed001), color-stop(68%, #ffcb03), color-stop(82%, #ffc100), color-stop(87%, #ffbe05), color-stop(92%, #ffbb02), color-stop(100%, #ffbe05));
+    background: -webkit-linear-gradient(top, #ffeb00 0, #fede00 37%, #fedb05 45%, #fed001 61%, #ffcb03 68%, #ffc100 82%, #ffbe05 87%, #ffbb02 92%, #ffbe05 100%);
+    background: -o-linear-gradient(top, #ffeb00 0, #fede00 37%, #fedb05 45%, #fed001 61%, #ffcb03 68%, #ffc100 82%, #ffbe05 87%, #ffbb02 92%, #ffbe05 100%);
+    background: -ms-linear-gradient(top, #ffeb00 0, #fede00 37%, #fedb05 45%, #fed001 61%, #ffcb03 68%, #ffc100 82%, #ffbe05 87%, #ffbb02 92%, #ffbe05 100%);
+    background: linear-gradient(to bottom, #ffeb00 0, #fede00 37%, #fedb05 45%, #fed001 61%, #ffcb03 68%, #ffc100 82%, #ffbe05 87%, #ffbb02 92%, #ffbe05 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeb00', endColorstr='#ffbe05', GradientType=0);
+    text-shadow: 0 1px 0 #f7f3bd;
+    filter: dropshadow(color=#f7f3bd, offx=0, offy=1);
+    border: 1px solid #ffbc00;
+    white-space: nowrap;
+}
+
+#wrapper .button {
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTCom-BdCn20';
+    margin-bottom: 15px;
+}
+
+.generatedRLM, .openJsLink, .openJsLinkBlank {
+    cursor: pointer;
+}
+table#bettings-table .winner a, .wettsteuer_content .winner a, .apps_content .winner a, #content .wettsteuer_content .winner a:link, #content .wettsteuer_content .winner a:visited, #content .apps_content .winner a:link, #content .apps_content .winner a:visited {
+    color: #d3e6e5;
+}
+
+table#bettings-table a {
+    color: #777;
+}
+
+.filter {
+    overflow: hidden;
+    position: relative;
+}
+
+.filter .checkbox {
+    width: 100%;
+    display: block;
+    clear: both;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.filter span.checkbox label {
+    line-height: 24px;
+    padding-left: 6px;
+    width: 250px;
+}
+
+.filter input {
+    float: left;
+    display: block;
+    padding: 2px;
+    width: 20px;
+    height: 21px;
+}
+
+.filter label, .filter input {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+form input {
+    border: 1px solid #cacaca;
+}
